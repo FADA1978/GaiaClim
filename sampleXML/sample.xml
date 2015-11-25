@@ -1,0 +1,178 @@
+<gaiaClimMetadata>
+  <observedVariable>
+    <observedVariable-measurand>
+      <domain>Atmospheric</domain>
+      <subdomain>Carbon Monoxide</subdomain>
+      <!--Optional:-->
+      <matrix>string</matrix>
+      <variable>string</variable>
+      <modeOfObservation>T</modeOfObservation>
+    </observedVariable-measurand>
+    <!--Optional:-->
+    <measurementUnit>
+      <name>string</name>
+      <abbreviation>string</abbreviation>
+      <!--Optional:-->
+      <definitionInBaseUnits>string</definitionInBaseUnits>
+    </measurementUnit>
+    <temporalExtent>string</temporalExtent>
+    <spatialExtent>string</spatialExtent>
+    <!--Optional:-->
+    <representativenessOfObservation>Nil reason</representativenessOfObservation>
+  </observedVariable>
+  <purposeOfObservation>
+    <applicationArea>Large urban complexes</applicationArea>
+    <programmeNetworkAffiliation>
+      <name>string</name>
+      <definition>string</definition>
+      <!--Optional:-->
+      <sponsorContributing>string</sponsorContributing>
+    </programmeNetworkAffiliation>
+  </purposeOfObservation>
+  <stationPlatform>
+    <!--Optional:-->
+    <regionOfOriginOfData>VII</regionOfOriginOfData>
+    <!--Optional:-->
+    <territoryOfOriginOfData>
+      <name>string</name>
+      <ISO3CountryCode>string</ISO3CountryCode>
+    </territoryOfOriginOfData>
+    <stationPlatformName>string</stationPlatformName>
+    <stationPlatformType>underwater platform</stationPlatformType>
+    <stationPlatformModel>string</stationPlatformModel>
+    <stationPlatformUniqueIdentifier>string</stationPlatformUniqueIdentifier>
+    <geospatialLocation>
+      <coordinatesSourceDevice>LORAN</coordinatesSourceDevice>
+      <coordinatesReference>WGS84</coordinatesReference>
+    </geospatialLocation>
+    <!--Optional:-->
+    <dataCommunicationMethod>Radio modem</dataCommunicationMethod>
+    <stationStatus>Pre-operational</stationStatus>
+  </stationPlatform>
+  <environment>
+    <!--Optional:-->
+    <surfaceCover>
+      <!--Optional:-->
+      <landCoverTypes_IGBP>Savannas</landCoverTypes_IGBP>
+      <!--Optional:-->
+      <landCoverTypes_UMD>Unclassified</landCoverTypes_UMD>
+      <!--Optional:-->
+      <landCoverTypes_LAI_fPAR>Savanna</landCoverTypes_LAI_fPAR>
+      <!--Optional:-->
+      <landCoverTypes_NPP>Evergreen needleleaf vegetation</landCoverTypes_NPP>
+      <!--Optional:-->
+      <landCoverTypes_PFT>Evergreen broadleaf trees</landCoverTypes_PFT>
+      <!--Optional:-->
+      <landCoverTypes_LCCS>Natural and Semi-Natural Terrestrial Vegetation</landCoverTypes_LCCS>
+    </surfaceCover>
+    <!--Optional:-->
+    <surfaceCoverClassificatioScheme>Not applicable</surfaceCoverClassificatioScheme>
+    <!--Optional:-->
+    <topographyOrBathymetry>
+      <!--Optional:-->
+      <localTopography>Not applicable</localTopography>
+      <!--Optional:-->
+      <relativeElevation>Highest</relativeElevation>
+      <!--Optional:-->
+      <topographicContext>Hollows</topographicContext>
+      <!--Optional:-->
+      <altitudeDepth>Small</altitudeDepth>
+    </topographyOrBathymetry>
+    <!--Optional:-->
+    <eventsAtStationPlatform>
+      <!--You have a CHOICE of the next 2 items at this level-->
+      <freeText>string</freeText>
+      <event>Biomass burning</event>
+    </eventsAtStationPlatform>
+    <!--Optional:-->
+    <siteInformation>string</siteInformation>
+  </environment>
+  <instrumentsAndMethodsOfObservation>
+    <sourceOfObservation>Visual observation</sourceOfObservation>
+    <measurementObservingMethod>string</measurementObservingMethod>
+    <instrumentSpecifications>string</instrumentSpecifications>
+    <!--Optional:-->
+    <instrumentOperatingStatus>Not in service</instrumentOperatingStatus>
+    <!--Optional:-->
+    <verticalDistanceOfSensor>string</verticalDistanceOfSensor>
+    <!--Optional:-->
+    <configurationOfInstrumentation>string</configurationOfInstrumentation>
+    <!--Optional:-->
+    <instrumentControlSchedule>string</instrumentControlSchedule>
+    <!--Optional:-->
+    <instrumentControlResult>no changes - out of calibration</instrumentControlResult>
+    <!--Optional:-->
+    <instrumentModelAndSerialNumber>string</instrumentModelAndSerialNumber>
+    <!--Optional:-->
+    <instrumentMaintenanceSchedule>string</instrumentMaintenanceSchedule>
+    <!--Optional:-->
+    <maintenanceParty>string</maintenanceParty>
+    <!--Optional:-->
+    <geospatialLocation>
+      <coordinatesSourceDevice>GALILEO</coordinatesSourceDevice>
+      <coordinatesReference>WGS84</coordinatesReference>
+    </geospatialLocation>
+    <!--Optional:-->
+    <maintenanceActivity>string</maintenanceActivity>
+    <!--Optional:-->
+    <statusOfObservation>Primary</statusOfObservation>
+    <!--Optional:-->
+    <exposureOfInstruments>Class 3</exposureOfInstruments>
+  </instrumentsAndMethodsOfObservation>
+  <sampling>
+    <!--Optional:-->
+    <samplingProcedures>string</samplingProcedures>
+    <!--Optional:-->
+    <sampleTreatment>string</sampleTreatment>
+    <!--Optional:-->
+    <samplingStrategy>Discrete</samplingStrategy>
+    <samplingTimePeriod>End</samplingTimePeriod>
+    <spatialSamplingResolution>string</spatialSamplingResolution>
+    <temporalSamplingInterval>string</temporalSamplingInterval>
+    <diurnalBaseTime>string</diurnalBaseTime>
+    <scheduleOfObservation>string</scheduleOfObservation>
+  </sampling>
+  <dataProcessingAndReporting>
+    <!--Optional:-->
+    <dataProcessingMethodsAndAlgorithms>string</dataProcessingMethodsAndAlgorithms>
+    <!--Optional:-->
+    <processingAnalysisCentre>string</processingAnalysisCentre>
+    <temporalReportingPeriod>Beginning</temporalReportingPeriod>
+    <!--Optional:-->
+    <spatialReportingInterval>string</spatialReportingInterval>
+    <!--Optional:-->
+    <softwareProcessorAndVersion>string</softwareProcessorAndVersion>
+    <!--Optional:-->
+    <levelOfData>Level I</levelOfData>
+    <dataFormat>string</dataFormat>
+    <versionOfDataFormat>string</versionOfDataFormat>
+    <aggregationPeriod>Middle</aggregationPeriod>
+    <referenceTime>Manual Comparison</referenceTime>
+    <!--Optional:-->
+    <referenceDatum>string</referenceDatum>
+    <!--Optional:-->
+    <numericalResolution>string</numericalResolution>
+    <latencyOfReporting>string</latencyOfReporting>
+  </dataProcessingAndReporting>
+  <dataQuality>
+    <!--Optional:-->
+    <uncertaintyOfMeasurement>string</uncertaintyOfMeasurement>
+    <!--Optional:-->
+    <procedureUsedToEstimateUncertainty>string</procedureUsedToEstimateUncertainty>
+    <qualityFlag>
+      <!--Optional:-->
+      <qualityFlag_BUFR>Wrong</qualityFlag_BUFR>
+      <!--Optional:-->
+      <qualityFlag_OGC>Good</qualityFlag_OGC>
+    </qualityFlag>
+    <qualityFlaggingSystem>Unknown</qualityFlaggingSystem>
+    <traceability>Traceable to other standard</traceability>
+  </dataQuality>
+  <ownershipAndDataPolicy>
+    <supervisingOrganization>string</supervisingOrganization>
+    <dataPolicyUseConstraints>WMOAdditional</dataPolicyUseConstraints>
+  </ownershipAndDataPolicy>
+  <contact>
+    <contact>string</contact>
+  </contact>
+</gaiaClimMetadata>
