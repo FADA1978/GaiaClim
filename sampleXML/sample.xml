@@ -2,177 +2,133 @@
   <observedVariable>
     <observedVariable-measurand>
       <domain>Atmospheric</domain>
-      <subdomain>Carbon Monoxide</subdomain>
-      <!--Optional:-->
-      <matrix>string</matrix>
-      <variable>string</variable>
-      <modeOfObservation>T</modeOfObservation>
+      <subdomain>Water vapour</subdomain>
+      <variable>Relative humidity</variable>
+      <modeOfObservation>I</modeOfObservation>
     </observedVariable-measurand>
-    <!--Optional:-->
     <measurementUnit>
-      <name>string</name>
-      <abbreviation>string</abbreviation>
-      <!--Optional:-->
-      <definitionInBaseUnits>string</definitionInBaseUnits>
+      <name>per cent</name>
+      <abbreviation>%</abbreviation>
     </measurementUnit>
-    <temporalExtent>string</temporalExtent>
-    <spatialExtent>string</spatialExtent>
-    <!--Optional:-->
-    <representativenessOfObservation>Nil reason</representativenessOfObservation>
+    <temporalExtent>one weekly radiosounding performed in the period from for the period 2011-02-23 to 2015-12-31</temporalExtent>
+    <spatialExtent>Air humidity: Potenza GRUAN station: Lat. -40.60 N; Lon. 15.72 E, Alt: 760.0 m above msl.</spatialExtent>
+    <representativenessOfObservation>mesoscale</representativenessOfObservation>
   </observedVariable>
   <purposeOfObservation>
-    <applicationArea>Large urban complexes</applicationArea>
+    <applicationArea>Climate monitoring (as undertaken through the Global Climate Observing System, GCOS)</applicationArea>
     <programmeNetworkAffiliation>
-      <name>string</name>
-      <definition>string</definition>
-      <!--Optional:-->
-      <sponsorContributing>string</sponsorContributing>
+      <name>GRUAN</name>
+      <definition>GCOS Reference Upper-Air Network</definition>
+      <sponsorContributing>GCOS</sponsorContributing>
     </programmeNetworkAffiliation>
   </purposeOfObservation>
   <stationPlatform>
-    <!--Optional:-->
-    <regionOfOriginOfData>VII</regionOfOriginOfData>
-    <!--Optional:-->
+    <regionOfOriginOfData>VI</regionOfOriginOfData>
     <territoryOfOriginOfData>
-      <name>string</name>
-      <ISO3CountryCode>string</ISO3CountryCode>
+      <name>Italy</name>
+      <ISO3CountryCode>ITA</ISO3CountryCode>
     </territoryOfOriginOfData>
-    <stationPlatformName>string</stationPlatformName>
-    <stationPlatformType>underwater platform</stationPlatformType>
-    <stationPlatformModel>string</stationPlatformModel>
-    <stationPlatformUniqueIdentifier>string</stationPlatformUniqueIdentifier>
+    <stationPlatformName>POT</stationPlatformName>
+    <stationPlatformType>Land station platform</stationPlatformType>
+    <stationPlatformModel>Radiosondes</stationPlatformModel>
+    <stationPlatformUniqueIdentifier>RS-92 SGPA</stationPlatformUniqueIdentifier>
     <geospatialLocation>
-      <coordinatesSourceDevice>LORAN</coordinatesSourceDevice>
+      <coordinatesSourceDevice>GPS</coordinatesSourceDevice>
       <coordinatesReference>WGS84</coordinatesReference>
     </geospatialLocation>
-    <!--Optional:-->
-    <dataCommunicationMethod>Radio modem</dataCommunicationMethod>
-    <stationStatus>Pre-operational</stationStatus>
+    <dataCommunicationMethod>email</dataCommunicationMethod>
+    <stationStatus>Operational/Reporting</stationStatus>
   </stationPlatform>
   <environment>
     <!--Optional:-->
     <surfaceCover>
       <!--Optional:-->
-      <landCoverTypes_IGBP>Savannas</landCoverTypes_IGBP>
+      <landCoverTypes_IGBP />
       <!--Optional:-->
-      <landCoverTypes_UMD>Unclassified</landCoverTypes_UMD>
+      <landCoverTypes_UMD />
       <!--Optional:-->
-      <landCoverTypes_LAI_fPAR>Savanna</landCoverTypes_LAI_fPAR>
+      <landCoverTypes_LAI_fPAR />
       <!--Optional:-->
-      <landCoverTypes_NPP>Evergreen needleleaf vegetation</landCoverTypes_NPP>
+      <landCoverTypes_NPP />
       <!--Optional:-->
-      <landCoverTypes_PFT>Evergreen broadleaf trees</landCoverTypes_PFT>
+      <landCoverTypes_PFT />
       <!--Optional:-->
-      <landCoverTypes_LCCS>Natural and Semi-Natural Terrestrial Vegetation</landCoverTypes_LCCS>
+      <landCoverTypes_LCCS />
     </surfaceCover>
     <!--Optional:-->
-    <surfaceCoverClassificatioScheme>Not applicable</surfaceCoverClassificatioScheme>
+    <surfaceCoverClassificatioScheme />
     <!--Optional:-->
     <topographyOrBathymetry>
-      <!--Optional:-->
-      <localTopography>Not applicable</localTopography>
-      <!--Optional:-->
-      <relativeElevation>Highest</relativeElevation>
-      <!--Optional:-->
-      <topographicContext>Hollows</topographicContext>
-      <!--Optional:-->
+      <localTopography>Flat</localTopography>
+      <relativeElevation>Low</relativeElevation>
+      <topographicContext>Hills</topographicContext>
       <altitudeDepth>Small</altitudeDepth>
     </topographyOrBathymetry>
     <!--Optional:-->
-    <eventsAtStationPlatform>
-      <!--You have a CHOICE of the next 2 items at this level-->
-      <freeText>string</freeText>
-      <event>Biomass burning</event>
-    </eventsAtStationPlatform>
-    <!--Optional:-->
-    <siteInformation>string</siteInformation>
+    <eventsAtStationPlatform />
+    <siteInformation>The CNR-IMAA Atmospheric Observatory (CIAO) is located in Tito Scalo,  6 km far from Potenza, Southern Italy, on the Apennine mountains (40.60N, 15.72E, 760 m a.s.l.) and less than 150 km from the West, South and East coasts. The site is in a plain surrounded by low mountains (<1100 m a.s.l.). The observatory operates in a typical mountain weather strongly influenced by Mediterranean atmospheric circulation, resulting in generally dry, hot summers and cold winters</siteInformation>
   </environment>
   <instrumentsAndMethodsOfObservation>
-    <sourceOfObservation>Visual observation</sourceOfObservation>
-    <measurementObservingMethod>string</measurementObservingMethod>
-    <instrumentSpecifications>string</instrumentSpecifications>
-    <!--Optional:-->
-    <instrumentOperatingStatus>Not in service</instrumentOperatingStatus>
-    <!--Optional:-->
-    <verticalDistanceOfSensor>string</verticalDistanceOfSensor>
-    <!--Optional:-->
-    <configurationOfInstrumentation>string</configurationOfInstrumentation>
-    <!--Optional:-->
-    <instrumentControlSchedule>string</instrumentControlSchedule>
-    <!--Optional:-->
-    <instrumentControlResult>no changes - out of calibration</instrumentControlResult>
-    <!--Optional:-->
-    <instrumentModelAndSerialNumber>string</instrumentModelAndSerialNumber>
-    <!--Optional:-->
-    <instrumentMaintenanceSchedule>string</instrumentMaintenanceSchedule>
-    <!--Optional:-->
-    <maintenanceParty>string</maintenanceParty>
-    <!--Optional:-->
+    <sourceOfObservation>Automatic observation</sourceOfObservation>
+    <measurementObservingMethod>sondes</measurementObservingMethod>
+    <instrumentSpecifications>Radiosounding profile of humidity from the ground to above 10 HPa</instrumentSpecifications>
+    <instrumentOperatingStatus>Operational</instrumentOperatingStatus>
+    <verticalDistanceOfSensor>humidity sensor: vertical distance m above m.s.l.</verticalDistanceOfSensor>
+    <configurationOfInstrumentation>standard humidity chamber</configurationOfInstrumentation>
+    <instrumentControlSchedule>Every year</instrumentControlSchedule>
+    <instrumentControlResult>no changes - in calibration</instrumentControlResult>
+    <instrumentModelAndSerialNumber>VAISALA HMT330</instrumentModelAndSerialNumber>
+    <instrumentMaintenanceSchedule />
+    <maintenanceParty />
     <geospatialLocation>
-      <coordinatesSourceDevice>GALILEO</coordinatesSourceDevice>
+      <coordinatesSourceDevice>GPS</coordinatesSourceDevice>
       <coordinatesReference>WGS84</coordinatesReference>
     </geospatialLocation>
-    <!--Optional:-->
-    <maintenanceActivity>string</maintenanceActivity>
-    <!--Optional:-->
+    <maintenanceActivity />
     <statusOfObservation>Primary</statusOfObservation>
-    <!--Optional:-->
-    <exposureOfInstruments>Class 3</exposureOfInstruments>
+    <exposureOfInstruments>Class 1</exposureOfInstruments>
   </instrumentsAndMethodsOfObservation>
   <sampling>
-    <!--Optional:-->
-    <samplingProcedures>string</samplingProcedures>
-    <!--Optional:-->
-    <sampleTreatment>string</sampleTreatment>
-    <!--Optional:-->
+    <samplingProcedures>Vertical sampling at each altitude levels provided every 2 seconds (on average equivalent to 10 m)</samplingProcedures>
+    <sampleTreatment>reconditiong (dehumidification)</sampleTreatment>
     <samplingStrategy>Discrete</samplingStrategy>
     <samplingTimePeriod>End</samplingTimePeriod>
-    <spatialSamplingResolution>string</spatialSamplingResolution>
-    <temporalSamplingInterval>string</temporalSamplingInterval>
-    <diurnalBaseTime>string</diurnalBaseTime>
-    <scheduleOfObservation>string</scheduleOfObservation>
+    <spatialSamplingResolution>raw sampling vertical resolution of 10 m</spatialSamplingResolution>
+    <temporalSamplingInterval>raw time resolution of 2 s</temporalSamplingInterval>
+    <diurnalBaseTime>variable</diurnalBaseTime>
+    <scheduleOfObservation>half an hour after the sunset, day of the week maybe variable, tipically on Thursday</scheduleOfObservation>
   </sampling>
   <dataProcessingAndReporting>
+    <dataProcessingMethodsAndAlgorithms>GRUAN algorithm</dataProcessingMethodsAndAlgorithms>
+    <processingAnalysisCentre>GRUAN lead center</processingAnalysisCentre>
+    <temporalReportingPeriod>End</temporalReportingPeriod>
+    <spatialReportingInterval>Not applicable</spatialReportingInterval>
+    <softwareProcessorAndVersion>0.5.8 (2015-01-16)</softwareProcessorAndVersion>
+    <levelOfData>Level II</levelOfData>
+    <dataFormat>NetCDF</dataFormat>
+    <versionOfDataFormat>3.0</versionOfDataFormat>
+    <aggregationPeriod>Beginning</aggregationPeriod>
+    <referenceTime>Time Server</referenceTime>
+    <referenceDatum>Not Applicable</referenceDatum>
     <!--Optional:-->
-    <dataProcessingMethodsAndAlgorithms>string</dataProcessingMethodsAndAlgorithms>
-    <!--Optional:-->
-    <processingAnalysisCentre>string</processingAnalysisCentre>
-    <temporalReportingPeriod>Beginning</temporalReportingPeriod>
-    <!--Optional:-->
-    <spatialReportingInterval>string</spatialReportingInterval>
-    <!--Optional:-->
-    <softwareProcessorAndVersion>string</softwareProcessorAndVersion>
-    <!--Optional:-->
-    <levelOfData>Level I</levelOfData>
-    <dataFormat>string</dataFormat>
-    <versionOfDataFormat>string</versionOfDataFormat>
-    <aggregationPeriod>Middle</aggregationPeriod>
-    <referenceTime>Manual Comparison</referenceTime>
-    <!--Optional:-->
-    <referenceDatum>string</referenceDatum>
-    <!--Optional:-->
-    <numericalResolution>string</numericalResolution>
-    <latencyOfReporting>string</latencyOfReporting>
+    <numericalResolution />
+    <latencyOfReporting>weekly</latencyOfReporting>
   </dataProcessingAndReporting>
   <dataQuality>
-    <!--Optional:-->
-    <uncertaintyOfMeasurement>string</uncertaintyOfMeasurement>
-    <!--Optional:-->
-    <procedureUsedToEstimateUncertainty>string</procedureUsedToEstimateUncertainty>
+    <uncertaintyOfMeasurement>Full traceable uncertainty budget</uncertaintyOfMeasurement>
+    <procedureUsedToEstimateUncertainty>Dirksen et al., 2014 AMT, http://www.atmos-meas-tech.net/7/4463/2014/amt-7-4463-2014.html</procedureUsedToEstimateUncertainty>
     <qualityFlag>
-      <!--Optional:-->
-      <qualityFlag_BUFR>Wrong</qualityFlag_BUFR>
-      <!--Optional:-->
+      <qualityFlag_BUFR>Good</qualityFlag_BUFR>
       <qualityFlag_OGC>Good</qualityFlag_OGC>
     </qualityFlag>
-    <qualityFlaggingSystem>Unknown</qualityFlaggingSystem>
-    <traceability>Traceable to other standard</traceability>
+    <qualityFlaggingSystem>Other quality flagging system</qualityFlaggingSystem>
+    <traceability>Traceable to international standard</traceability>
   </dataQuality>
   <ownershipAndDataPolicy>
-    <supervisingOrganization>string</supervisingOrganization>
-    <dataPolicyUseConstraints>WMOAdditional</dataPolicyUseConstraints>
+    <supervisingOrganization>Consiglio nazionale delle Ricerche</supervisingOrganization>
+    <dataPolicyUseConstraints>WMOOther</dataPolicyUseConstraints>
   </ownershipAndDataPolicy>
   <contact>
-    <contact>string</contact>
+    <contact>Fabio Madonna madonna@imaa.cnr.it</contact>
   </contact>
 </gaiaClimMetadata>
